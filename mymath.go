@@ -2,9 +2,9 @@ package mymath
 
 import "math"
 
-func Sqrt(x float64) int {
+func Sqrt(x float64) float64 {
 
-	return int(math.Sqrt(x))
+	return math.Sqrt(x)
 }
 
 func Abs(x float64) float64 {
